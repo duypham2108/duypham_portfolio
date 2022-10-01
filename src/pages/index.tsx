@@ -1,18 +1,15 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 
 import Image from 'next/image'
-import Link from 'next/link';
 import { NextSeo } from 'next-seo';
 
-import clsx from 'clsx';
 import { pick } from 'contentlayer/client';
 import { allPosts } from 'contentlayer/generated';
-import { BsArrowRight } from 'react-icons/bs';
 
 import { Section } from '@/components/base';
 import { Main } from '@/components/base';
 import Card from '@/components/cards/Card';
-import FeaturedPostCard from '@/components/cards/FeaturedPostCard';
+// import FeaturedPostCard from '@/components/cards/FeaturedPostCard';
 import GithubCard from '@/components/cards/GithubCard';
 import Demo from '@/components/chart/demo'
 import CurrentGoals from '@/components/CurrentGoals';

@@ -4,22 +4,14 @@ import Link from 'next/link';
 
 import clsx from 'clsx';
 import type { Post } from 'contentlayer/generated';
-import { HiOutlineClock, HiOutlineEye } from 'react-icons/hi';
-import useSWR from 'swr';
 
-import fetcher from '@/lib/fetcher';
-
-import { H4, Paragraph } from '@/components/Typography';
-
-import { Views } from '@/types';
+import { H4 } from '@/components/Typography';
 
 export default function FeaturedPostCard({
   title,
   slug,
   readingTime,
 }: Pick<Post, 'title' | 'slug' | 'readingTime'>) {
-  const { data } = useSWR<Views>(`/api/views/${slug}`, fetcher);
-  const views = data?.total;
 
   return (
     <Link href={`/research/${slug}`}>
