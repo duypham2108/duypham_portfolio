@@ -55,9 +55,6 @@ function HomePage({
       url: 'https://duypham.github.io/',
     },
   };
-  const [isHovering, setIsHovered] = useState(false);
-  const onMouseEnter = () => setIsHovered(true);
-  const onMouseLeave = () => setIsHovered(false);
 
   return (
     <>
@@ -78,15 +75,8 @@ function HomePage({
                 Passionate about solving real life problems and discovering new insights from diseases and traits.
                 </Paragraph>
               </div>
-              <div className='md:w-1/4 container mx-auto' 
-                onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}>
-                {isHovering ? (
-                  <Image src="/static/images/photo2.png" width={180} height={190} alt="avatar" className='mx-auto' />
-                ) : (
+              <div className='md:w-1/4 container mx-auto' >
                   <Image src="/static/images/photo.jpg" width={180} height={190} alt="avatar" className='mx-auto' />
-                )}
-                
               </div>
             </div>
           </header>
@@ -117,7 +107,7 @@ function HomePage({
           </div>
         </Section>
 
-        {/* Featured Posts */}
+        {/* Featured Posts
         <Section>
           <H2>Research Projects</H2>
 
@@ -132,17 +122,17 @@ function HomePage({
             ))}
           </div>
 
-          <Link href='/blog'>
+          <Link href='/research'>
             <a
               className={clsx(
                 'flex items-center text-gray-500 transition-colors ease-in-out',
                 'hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200'
               )}
             >
-              See all posts <BsArrowRight className='ml-2' />
+              See all projects <BsArrowRight className='ml-2' />
             </a>
           </Link>
-        </Section>
+        </Section> */}
 
         {/* Featured Projects */}
         <Section>
@@ -158,21 +148,11 @@ function HomePage({
             ))}
           </div>
 
-          <Link href='/portfolio'>
-            <a
-              className={clsx(
-                'flex items-center text-gray-500 transition-colors ease-in-out',
-                'hover:text-gray-700 dark:text-slate-400 dark:hover:text-gray-200'
-              )}
-            >
-              See all projects <BsArrowRight className='ml-2' />
-            </a>
-          </Link>
         </Section>
 
         {/* Current Goals */}
         <Section>
-          <H2>What I'm up to right now</H2>
+          <H2>Current statement</H2>
           <CurrentGoals />
         </Section>
       </Main>

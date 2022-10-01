@@ -14,7 +14,7 @@ export default function SocialIcons({ w = 'w-6', h = 'h-6' }) {
           <FaGithub className={styles.icon} />
         </a>
       </Link>
-      <Link href='https://www.linkedin.com/in/duypham2108'>
+      <Link href='https://www.linkedin.com/in/duy-pham2108'>
         <a target='_blank' rel='noopener noreferrer'>
           <FaLinkedin className={styles.icon} />
         </a>

@@ -16,7 +16,7 @@ export default function SnippetLayout({
     title: 'Library',
     canonical: `htpps://duypham2108.github.io/library/${snippet.slug}`,
     openGraph: {
-      url: `https://duypham2108.github.io/library/${snippet.slug}`,
+      url: `https://duypham2108.vercel.app/library/${snippet.slug}`,
       type: 'article',
     },
     additionalMetaTags: [

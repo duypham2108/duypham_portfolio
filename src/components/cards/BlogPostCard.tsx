@@ -44,7 +44,7 @@ export default function BlogPostCard({ post, isLast }: Props) {
         </div>
       </div>
       <H3 className='transition-all duration-300 hover:scale-[1.01] hover:text-gray-700 dark:text-primary'>
-        <Link href={`/blog/${slug}`}>{title}</Link>
+        <Link href={`/research/${slug}`}>{title}</Link>
       </H3>
       <Paragraph className='mt-2 text-sm md:text-base'>{summary}</Paragraph>
       <hr className={`my-4 ${isLast ? 'hidden' : ''}`} />

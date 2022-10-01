@@ -30,7 +30,7 @@ export default {
   additionalMetaTags: [
     {
       name: 'keywords',
-      content: `blog, HTML, CSS, JavaScript, Next js, Gatsby, React, Node, Vue, Tailwind CSS, React Native, Flutter`,
+      content: `research, HTML, CSS, JavaScript, Next js, Gatsby, React, Node, Vue, Tailwind CSS, React Native, Flutter`,
     },
   ],
 };

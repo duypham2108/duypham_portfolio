@@ -54,9 +54,9 @@ export default function ContactPage() {
 
   const customMetadata = {
     title: 'Contact',
-    canonical: 'https://duypham2108.github.io/contact',
+    canonical: 'https://duypham2108.vercel.app/contact',
     openGraph: {
-      url: 'https://duypham2108.github.io/contact',
+      url: 'https://duypham2108.vercel.app/contact',
     },
   };
 

@@ -9,15 +9,15 @@ export const jobs = [
     title: 'Computational biology',
     icon: ImStack,
     description:
-      'I like working with JamStack architecture for better performance, faster development & SEO Optimization',
-    techStack: ['Next js', 'Gatsby'],
+      'I am focus on single cell omics data analysis, especially spatial omics. Besides, I have skill on population genetics',
+    techStack: ['Python', 'R'],
   },
   {
     id: 2,
-    title: 'Machine leanring/Deep learning',
+    title: 'Machine learning/Deep learning',
     icon: FaMobileAlt,
-    description: 'Cross platform mobile development for iOS and Android phones',
-    techStack: ['Flutter'],
+    description: 'Mostly working on tabular data with machine learning and deep learning.',
+    techStack: ['Python'],
   },
   {
     id: 3,

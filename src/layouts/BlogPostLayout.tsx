@@ -22,11 +22,11 @@ export default function BlogPostLayout({
   const keywords = post.keywords ?? undefined;
 
   const customMetadata = {
-    title: `Blog - ${post.title}`,
-    canonical: `https://duypham2108.github.io/blog/${post.slug}`,
+    title: `Research - ${post.title}`,
+    canonical: `https://duypham2108.vercel.app/research/${post.slug}`,
     description: post.summary,
     openGraph: {
-      url: `https://duypham2108.github.io/blog/${post.slug}`,
+      url: `https://duypham2108.vercel.app/research/${post.slug}`,
       type: 'article',
       images: [
         {
@@ -52,10 +52,10 @@ export default function BlogPostLayout({
       <NextSeo {...customMetadata} />
 
       <Main>
-        <ReturnLink href='/blog' />
+        <ReturnLink href='/research' />
         <CloudinaryImage
           publicId={`sergiobarria/banners/${post.banner}`}
-          alt='blog post cover'
+          alt='research post cover'
           width={1200}
           height={720}
         />

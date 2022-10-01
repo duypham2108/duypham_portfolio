@@ -25,7 +25,7 @@ export default function CommandPalette() {
 
   function handleChange(value: string) {
     onClose();
-    router.push(`/blog/${value}`);
+    router.push(`/research/${value}`);
   }
 
   return (

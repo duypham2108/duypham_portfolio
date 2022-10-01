@@ -4,13 +4,13 @@ const RSS = require('rss');
 const frontMatter = require('front-matter');
 
 // blog post directory path
-const blogPostDir = path.resolve(__dirname, '../src', 'content', 'blog');
+const blogPostDir = path.resolve(__dirname, '../src', 'content', 'research');
 
 // setup feed instance with some high level data
 const feed = new RSS({
   title: `Duy Pham's Website RSS Feed`,
   description:
-    'This is the RSS Feed generated for my personal website and blog portfolio',
+    'This is the RSS Feed generated for my personal website and research portfolio',
   feed_url: `https://www.duypham2108.github.io/rss.xml`,
   site_url: `https://www.duypham2108.github.io`,
   managingEditor: 'Duy Pham',
@@ -42,7 +42,7 @@ fs.readdirSync(blogPostDir)
     feed.item({
       title,
       excerpt,
-      url: `https://www.duypham2108.github.io/blog/${fileName.replace('.mdx', '')}`,
+      url: `https://www.duypham2108.github.io/research/${fileName.replace('.mdx', '')}`,
       author,
       date: publishedAt,
     });

@@ -11,16 +11,11 @@ export const routes = [
   },
   {
     id: 3,
-    route: '/blog',
-    text: 'Blog',
+    route: '/research',
+    text: 'Research',
   },
   {
     id: 4,
-    route: '/portfolio',
-    text: 'Portfolio',
-  },
-  {
-    id: 5,
     route: '/contact',
     text: 'Contact',
   },

@@ -22,7 +22,7 @@ export default function FeaturedPostCard({
   const views = data?.total;
 
   return (
-    <Link href={`/blog/${slug}`}>
+    <Link href={`/research/${slug}`}>
       <a
         className={clsx(
           'transform transition-all ease-out hover:scale-[1.02]',
@@ -35,18 +35,6 @@ export default function FeaturedPostCard({
             <H4 className='mb-6 w-full text-lg tracking-tight sm:mb-10 md:text-xl'>
               {title}
             </H4>
-          </div>
-          <div className='flex items-center justify-around text-sm text-gray-700 dark:text-gray-200'>
-            <div className='flex items-center space-x-1'>
-              <HiOutlineEye size={16} />
-              <Paragraph>{`${
-                views ? new Number(views).toLocaleString() : '---'
-              } views`}</Paragraph>
-            </div>
-            <div className='flex items-center space-x-1'>
-              <HiOutlineClock size={16} />
-              <Paragraph>{readingTime.text}</Paragraph>
-            </div>
           </div>
         </div>
       </a>

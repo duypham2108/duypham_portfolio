@@ -34,9 +34,9 @@ export default function LibraryPage({
 
   const customMetadata = {
     title: 'Library',
-    canonical: 'https://duypham2108.github.io/library',
+    canonical: 'https://duypham2108.vercel.app/library',
     openGraph: {
-      url: 'https://duypham2108.github.io/library',
+      url: 'https://duypham2108.vercel.app/library',
     },
   };
 

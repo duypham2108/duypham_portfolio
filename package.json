@@ -4,7 +4,7 @@
   "private": true,
   "author": {
     "name": "Duy Pham",
-    "url": "https://duypham2108.github.io"
+    "url": "https://duypham2108.vercel.app/"
   },
   "scripts": {
     "dev": "next dev",

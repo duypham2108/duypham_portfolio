@@ -51,10 +51,10 @@ export default function BlogPage({
   );
 
   const customMetadata = {
-    title: 'Blog',
-    canonical: 'https://duypham2108.github.io/blog',
+    title: 'Research',
+    canonical: 'https://duypham2108.vercel.app/research',
     openGraph: {
-      url: 'https://duypham2108.github.io/blog',
+      url: 'https://duypham2108.vercel.app/research',
     },
   };
 
@@ -64,7 +64,7 @@ export default function BlogPage({
       <Main>
         {/* Page Heading */}
         <Section>
-          <H1>Blog</H1>
+          <H1>Research</H1>
           <hr className='my-6' />
           <Paragraph prose className='mb-6'>
             Welcome to...whatever this is 😅 . Here I share my thoughts related
