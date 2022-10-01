@@ -2,7 +2,7 @@ import { cy, describe, it } from 'local-cypress';
 
 describe('App Navigation', () => {
   it('clicks all links', () => {
-    const pages = ['about', 'research', 'contact'];
+    const pages = ['about', 'contact'];
 
     cy.visit('/');
 

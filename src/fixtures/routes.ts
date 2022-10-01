@@ -11,11 +11,6 @@ export const routes = [
   },
   {
     id: 3,
-    route: '/research',
-    text: 'Research',
-  },
-  {
-    id: 4,
     route: '/contact',
     text: 'Contact',
   },
